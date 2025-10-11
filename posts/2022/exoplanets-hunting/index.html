@@ -126,18 +126,45 @@
         
       </header>
 
-      
-      <figure id="featureimage" class="rounded-xl aspect-video">
+<figure id="featureimage" class="rounded-xl aspect-video">
+        <div class="relative group">
+          <img class="rounded-lg w-full h-full object-cover" 
+               src="https://YangCHGit.github.io/images/nasa-Ed2AELHKYBw-unsplash_hu_25544815d9c619de.jpg" 
+               alt="Exoplanets: Hunting for Earth&#39;s Cosmic Cousins" 
+               width="750" 
+               height="422">
+          <a href="https://YangCHGit.github.io/images/nasa-Ed2AELHKYBw-unsplash.jpg" download class="download-btn">
+            ↓ 下载原图
+          </a>
+        </div>
+    <figcaption class="text-center italic text-xs">Photo by Nasa on Unsplash</figcaption>
+</figure>
 
-        
+<style>
+.download-btn {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  width: calc(100% - 24px);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  transform: translateZ(0);
+}
+.group:hover .download-btn {
+  opacity: 1;
+}
+</style>
 
-          
-              <img class="rounded-lg" src="https://YangCHGit.github.io/images/nasa-Ed2AELHKYBw-unsplash_hu_25544815d9c619de.jpg" alt="" width="750" height="422">
 
-        
-          <figcaption class="text-center italic text-xs">Photo by Nasa on Unsplash</figcaption>
-
-      </figure>
 
       
       <div id="content" class="mb-14">
