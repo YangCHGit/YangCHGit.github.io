@@ -1,6 +1,7 @@
 @echo off
 chcp 65001 > nul
 echo Creating detailed photography folder structure...
+:: 文件夹创建batch脚本
 
 :: 人像摄影
 mkdir "Portrait"
